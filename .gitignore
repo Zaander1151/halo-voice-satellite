@@ -1,0 +1,63 @@
+# CAD temporary files
+*.FCStd1
+*.FCStd~
+*.bak
+*.autosave
+*.lock
+
+# FreeCAD specific
+*.FCStd#
+
+# Fusion 360 specific
+*.f3d~
+*.iam.lock
+*.ipt.lock
+
+# OpenSCAD specific
+*.echo
+
+# 3D printing software
+*.gcode
+*.3mf
+*.ufp
+*.makerbot
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Logs
+*.log
+
+# Documentation build
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Test prints (optional - uncomment if you don't want to track test STLs)
+# stl/test_*
+# stl/proto_*
